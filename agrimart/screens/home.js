@@ -17,7 +17,7 @@ export default class Home extends Component {
           <View style={styles.container}>
           <TouchableOpacity
             style={{ backgroundColor: '#46cc17', height: 120, width: 180, borderRadius: 25, left: 10, top: 50, position: 'absolute', justifyContent: 'center', alignItems: 'center' }}
-            onPress={() => this.props.navigation.navigate("CreditsTable")}
+            onPress={() => this.props.navigation.navigate("Products")}
           >
             {/* <FontAwesome5 name={'table'} size={50} color='black' /> */}
             <Text
@@ -27,7 +27,7 @@ export default class Home extends Component {
 
           <TouchableOpacity
             style={{ backgroundColor: '#46cc17', height: 120, width: 180, borderRadius: 25, left: 10, top: 190, position: 'absolute', justifyContent: 'center', alignItems: 'center' }}
-            onPress={() => this.props.navigation.navigate("CreditsTable")}
+            onPress={() => this.props.navigation.navigate("Products")}
           >
             {/* <FontAwesome5 name={'table'} size={50} color='black' /> */}
             <Text
@@ -37,7 +37,7 @@ export default class Home extends Component {
 
           <TouchableOpacity
             style={{ backgroundColor: '#46cc17', height: 120, width: 180, borderRadius: 25, left: 220, top: 50, position: 'absolute', justifyContent: 'center', alignItems: 'center' }}
-            onPress={() => this.props.navigation.navigate("SGPA")}
+            onPress={() => this.props.navigation.navigate("Products")}
           >
             {/* <FontAwesome5 name={'book'} size={50} color='black' /> */}
             <Text
@@ -47,7 +47,7 @@ export default class Home extends Component {
 
           <TouchableOpacity
             style={{ backgroundColor: '#46cc17', height: 120, width: 180, borderRadius: 25, left: 220, top: 190, position: 'absolute', justifyContent: 'center', alignItems: 'center' }}
-            onPress={() => this.props.navigation.navigate("SGPA")}
+            onPress={() => this.props.navigation.navigate("Products")}
           >
             {/* <FontAwesome5 name={'book'} size={50} color='black' /> */}
             <Text
@@ -57,7 +57,7 @@ export default class Home extends Component {
 
           <TouchableOpacity
             style={{ backgroundColor: '#46cc17', height: 120, width: 180, borderRadius: 25, left: 10, top: 330, position: 'absolute', justifyContent: 'center', alignItems: 'center' }}
-            onPress={() => this.props.navigation.navigate("CGPA")}
+            onPress={() => this.props.navigation.navigate("Products")}
           >
             {/* <FontAwesome5 name={'graduation-cap'} size={50} color='black' /> */}
             <Text
@@ -67,7 +67,7 @@ export default class Home extends Component {
 
           <TouchableOpacity
             style={{ backgroundColor: '#46cc17', height: 120, width: 180, borderRadius: 25, left: 220, top: 330, position: 'absolute', justifyContent: 'center', alignItems: 'center' }}
-            onPress={() => this.props.navigation.navigate("AboutUS")}
+            onPress={() => this.props.navigation.navigate("Products")}
           >
             {/* <FontAwesome5 name={'address-card'} size={50} color='black' /> */}
             <Text
@@ -77,7 +77,7 @@ export default class Home extends Component {
 
           <TouchableOpacity
             style={{ backgroundColor: '#46cc17', height: 120, width: 180, borderRadius: 25, left: 220, top: 470, position: 'absolute', justifyContent: 'center', alignItems: 'center' }}
-            onPress={() => this.props.navigation.navigate("AboutUS")}
+            onPress={() => this.props.navigation.navigate("Products")}
           >
             {/* <FontAwesome5 name={'address-card'} size={50} color='black' /> */}
             <Text
@@ -87,7 +87,7 @@ export default class Home extends Component {
 
           <TouchableOpacity
             style={{ backgroundColor: '#46cc17', height: 120, width: 180, borderRadius: 25, left: 10, top: 470, position: 'absolute', justifyContent: 'center', alignItems: 'center' }}
-            onPress={() => this.props.navigation.navigate("CGPA")}
+            onPress={() => this.props.navigation.navigate("Products")}
           >
             {/* <FontAwesome5 name={'graduation-cap'} size={50} color='black' /> */}
             <Text
