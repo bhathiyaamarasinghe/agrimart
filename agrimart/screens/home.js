@@ -111,6 +111,6 @@ export default class Home extends Component {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1,padding: 10,backgroundColor:'black' },
+  container: { flex: 1,padding: 10,backgroundColor:'white' },
  
 });
