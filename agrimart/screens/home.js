@@ -17,7 +17,7 @@ export default class Home extends Component {
           <View style={styles.container}>
           <TouchableOpacity
             style={{ backgroundColor: '#46cc17', height: 120, width: 180, borderRadius: 25, left: 10, top: 50, position: 'absolute', justifyContent: 'center', alignItems: 'center' }}
-            onPress={() => this.props.navigation.navigate("Products")}
+            onPress={() => this.props.navigation.navigate("Explore")}
           >
             {/* <FontAwesome5 name={'table'} size={50} color='black' /> */}
             <Text
