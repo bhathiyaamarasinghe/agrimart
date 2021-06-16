@@ -11,7 +11,7 @@ export default class Welcome extends Component {
     constructor(props) {
         super(props);
         setTimeout(() => {
-            this.props.navigation.navigate("Home");
+            this.props.navigation.navigate("Signin");
         }, 5000);
     }
 

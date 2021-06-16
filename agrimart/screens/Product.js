@@ -21,9 +21,10 @@ import acerImage from '../media/products/acer.jpg';
 import AsyncStorage from '@react-native-community/async-storage';
 import {BaseUrl} from '../components/serviceUrls';
 import {ImgUrl} from '../components/serviceUrls';
+import { baseProps } from 'react-native-gesture-handler/lib/typescript/handlers/gestureHandlers';
 
 
-const FashionScreen = ({ item,route }) => {
+const FashionScreen = (props) => {
    
     const addtocart = async (id) => {
     
@@ -67,9 +68,7 @@ const FashionScreen = ({ item,route }) => {
                         <View style={{ flexDirection: 'row', marginTop: 3 }}>
                           
                             <TouchableOpacity
-                                   onPress={() =>
-                                    addtocart(item.id)
-                                  }
+                                  onPress={() => props.navigation.navigate("Explore")}
                                 style={[styles.signIn, {
                                     borderColor: '#FFC300',
                                     borderWidth: 1,
