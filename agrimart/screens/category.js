@@ -78,10 +78,10 @@ export default class Category extends Component {
                     <View style={styles.cardInfo}>
                         
                         <Text style={styles.cardTitle}>Mango</Text>
-                        <Text style={styles.cardDetails}>Seller:</Text>
-                        <Text style={styles.cardDetails}>Description:</Text>
-                        <Text style={styles.cardPrice}>Market Price:</Text>
-                        <Text style={styles.cardPrice}>Selling Price:</Text>
+                        <Text style={styles.cardDetails}>Seller:Mr.Kamal Deshapriya</Text>
+                        <Text style={styles.cardDetails}>Description:Sri Lankan yummy mango</Text>
+                        <Text style={styles.cardPrice}>Market Price:100LKR</Text>
+                        <Text style={styles.cardPrice}>Selling Price:90LKR</Text>
                         <View style={{ flexDirection: 'row', marginTop: 3 }}>
                           
                             <TouchableOpacity
@@ -116,12 +116,9 @@ export default class Category extends Component {
 const styles = StyleSheet.create({
 
     sliderContainer: {
-        height: 550,
-        width: 340,
-        marginTop: 10,
-        marginLeft: 10,
-        marginRight: 50,
-        borderRadius: 8,
+        flex: 1, 
+        alignSelf:'center'
+    
 
     },
 
