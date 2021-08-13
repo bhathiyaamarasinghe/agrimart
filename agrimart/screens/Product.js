@@ -22,6 +22,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 import {BaseUrl} from '../components/serviceUrls';
 import {ImgUrl} from '../components/serviceUrls';
 import { baseProps } from 'react-native-gesture-handler/lib/typescript/handlers/gestureHandlers';
+import bottombar from './bottombar';
 
 
 const FashionScreen = (props) => {
@@ -79,6 +80,7 @@ const FashionScreen = (props) => {
                                     color: 'black'
                                 }]}>Add to cart </Text>
                             </TouchableOpacity>
+                            <bottombar/>
                         
                         </View>
                     </View>

@@ -1,8 +1,9 @@
 import { RENDER } from 'ci-info';
 import React, { Component, component } from 'react';
-import { Text, View, TouchableOpacity,ScrollView,StyleSheet  } from 'react-native';
+import { Text, View, TouchableOpacity,ScrollView,StyleSheet, ImageBackground  } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
-var bg = require('../../assets/background.png');
+
+var bg = require('../../assets/background1.png');
 var logo = require('../../assets/child.png');
 
 export default class Home extends Component {
@@ -13,8 +14,14 @@ export default class Home extends Component {
 
   render() {
     return (
-   
-          <View style={styles.container}>
+      <ImageBackground
+      source={bg}
+      style={{ height: '100%', width: '100%' }}
+
+  >
+          {/* <View style={styles.container}> */}
+
+          
           <TouchableOpacity
             style={{ backgroundColor: '#46cc17', height: 120, width: 180, borderRadius: 25, left: 10, top: 50, position: 'absolute', justifyContent: 'center', alignItems: 'center' }}
             onPress={() => this.props.navigation.navigate("Explore")}
@@ -102,10 +109,11 @@ export default class Home extends Component {
             style={{ color: 'black', fontSize: 18,left: 100, top: 550, fontWeight: 'normal',position: 'absolute',fontStyle:'italic' }}
           >Powered by LogisticBlocks</Text> */}
       
-       
-      </View>
-  
+      
+      {/* </View> */}
 
+  
+      </ImageBackground>
     );
   }
 }
